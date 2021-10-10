@@ -18,11 +18,13 @@ use the fonts in other ways in the font hierarchy etc. */
 
   --white-space: 1rem;
 
-  --bg-color: #fd6f19;
-  --link-color: #aa0004;
-  --link-hover-color: #1a4900;
-  --color-4: #00115a;
-  --color-5: #000;
+  --bg-color: #ddcebb;
+  --link-color: #b57462;
+  --link-hover-color: #8a4741;
+  --color-4: #ddb07e;
+  --color-5: #697f71;
+  --color-6: #698da8;
+  --color-7: #e08362;
 
   /* --primary-font: sans-serif;
   --secondary-font: serif; */
@@ -91,7 +93,6 @@ section {
 }
 
 .section-heading {
-  font-style: italic;
   font-size: 1.3rem;
   color: #777;
   margin: 0.5rem 0;
@@ -136,6 +137,12 @@ ul li:last-child {
 .color-swatch-5 {
   background-color: var(--color-5);
 }
+.color-swatch-6 {
+  background-color: var(--color-6);
+}
+.color-swatch-7 {
+  background-color: var(--color-7);
+}
 
 .textures li {
   height: 30vw;
@@ -144,16 +151,12 @@ ul li:last-child {
 }
 
 .texture-swatch-1 {
-  background: url(../img/blueberry.jpg) top left repeat;
+  background: url(../img/screen.png) top left repeat;
   object-fit: cover;
 }
 
 .texture-swatch-2 {
-  background: url(../img/gummy.jpg) top left repeat;
-}
-
-.texture-swatch-3 {
-  background: url(../img/plant1.jpg) top left repeat;
+  background: url(../img/screen3.png) top left repeat;
 }
 
 .images ul {
@@ -221,7 +224,7 @@ button:active {
   font-family: var(--secondary-font);
   font-size: 2.4rem;
   font-weight: bold;
-  color: #fd6f19;
+  color: var(--link-hover-color);
 }
 
 .h2-sample {
